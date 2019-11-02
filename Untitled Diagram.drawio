@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-02T06:47:04.874Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="l2v85BzYzH-1YfP1Wsng" version="12.1.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-02T06:52:54.559Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="QAceKKhTDf0YDPmVXO-H" version="12.1.9" type="github" pages="1">
   <diagram id="VXKHc1rD1lcElp5MwoDB" name="Page-1">
     <mxGraphModel dx="678" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -111,6 +111,9 @@
         <mxCell id="0xlNtEbpLMMX_KmN14da-1" value="feed water tank" style="shape=mxgraph.pid.vessels.tank,_vessel;html=1;pointerEvents=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="157" y="360" width="100" height="70" as="geometry"/>
         </mxCell>
+        <mxCell id="0xlNtEbpLMMX_KmN14da-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0xlNtEbpLMMX_KmN14da-2" target="0xlNtEbpLMMX_KmN14da-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="0xlNtEbpLMMX_KmN14da-2" value="" style="verticalLabelPosition=bottom;align=center;dashed=0;html=1;verticalAlign=top;shape=mxgraph.pid.piping.cone_strainer;rotation=180;" vertex="1" parent="1">
           <mxGeometry x="310" y="385" width="20" height="20" as="geometry"/>
         </mxCell>
@@ -119,6 +122,9 @@
             <mxPoint x="260" y="455" as="sourcePoint"/>
             <mxPoint x="310" y="405" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0xlNtEbpLMMX_KmN14da-7" value="H.P.&amp;nbsp; pre heater" style="shape=mxgraph.pid.heat_exchangers.shell_and_tube_heat_exchanger_1;html=1;pointerEvents=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="383" y="372.5" width="45" height="45" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
