@@ -1,12 +1,9 @@
-<mxfile host="www.draw.io" modified="2019-11-02T06:30:49.925Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="9gqeWyDMbfrdgXqlAWw0" version="12.1.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-02T06:47:04.874Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="l2v85BzYzH-1YfP1Wsng" version="12.1.9" type="github" pages="1">
   <diagram id="VXKHc1rD1lcElp5MwoDB" name="Page-1">
-    <mxGraphModel dx="772" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="678" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="uYJ4UDZ6EWOnioeUSAI6-2" value="" style="shape=mxgraph.pid.vessels.reactor;html=1;pointerEvents=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;dashed=0;" parent="1" vertex="1">
-          <mxGeometry x="20" y="300" width="40" height="95" as="geometry"/>
-        </mxCell>
         <mxCell id="uYJ4UDZ6EWOnioeUSAI6-4" value="" style="shape=mxgraph.pid.vessels.tank;html=1;pointerEvents=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;dashed=0;" parent="1" vertex="1">
           <mxGeometry x="117" y="72.5" width="40" height="95" as="geometry"/>
         </mxCell>
@@ -109,6 +106,18 @@
               <mxPoint x="500" y="175"/>
               <mxPoint x="500" y="20"/>
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xlNtEbpLMMX_KmN14da-1" value="feed water tank" style="shape=mxgraph.pid.vessels.tank,_vessel;html=1;pointerEvents=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="157" y="360" width="100" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="0xlNtEbpLMMX_KmN14da-2" value="" style="verticalLabelPosition=bottom;align=center;dashed=0;html=1;verticalAlign=top;shape=mxgraph.pid.piping.cone_strainer;rotation=180;" vertex="1" parent="1">
+          <mxGeometry x="310" y="385" width="20" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0xlNtEbpLMMX_KmN14da-3" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0xlNtEbpLMMX_KmN14da-1" target="0xlNtEbpLMMX_KmN14da-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="455" as="sourcePoint"/>
+            <mxPoint x="310" y="405" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
       </root>
